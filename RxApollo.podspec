@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RxApollo'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'RxSwift extensions for Apollo.'
 
   s.description      = <<-DESC
@@ -8,15 +8,15 @@ Pod::Spec.new do |s|
     to use Apollo requests (fetch, watch, mutate) as an Observable
                        DESC
 
-  s.homepage         = 'https://github.com/scottrhoyt/RxApollo'
+  s.homepage         = 'https://github.com/Sidetalker/RxApollo'
   s.license          = 'MIT'
-  s.author           = { 'Scott Hoyt' => 'scottrhoyt@gmail.com' }
-  s.source           = { :git => 'https://github.com/scottrhoyt/RxApollo.git', :tag => s.version.to_s }
+  s.author           = { 'Kevin Sullivan' => 'kevin@sideapps.com' }
+  s.source           = { :git => 'https://github.com/Sidetalker/RxApollo.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'RxApollo/*.swift'
 
-  s.dependency 'Apollo', '~> 0.7.0'
-  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'Apollo', '~> 0.9.0'
+  s.dependency 'RxSwift', '~> 4.2'
 
 end
